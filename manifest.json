@@ -1,0 +1,37 @@
+{
+  "name": "AddonSphere",
+  "short_name": "AddonSphere",
+  "description": "Minecraft Addon Hub - Download addon, texture, shader, dan map Minecraft terbaik",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080808",
+  "theme_color": "#8b5cf6",
+  "categories": ["games", "entertainment"],
+  "lang": "id",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Admin Panel",
+      "short_name": "Admin",
+      "description": "Buka dashboard admin",
+      "url": "/admin.html",
+      "icons": [{ "src": "assets/logo.png", "sizes": "192x192" }]
+    }
+  ]
+}
